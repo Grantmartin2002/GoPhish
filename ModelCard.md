@@ -130,6 +130,8 @@ we used 20% of the Enron dataset for testing.
 
 ### Metrics
 
+[Results](https://cdn.discordapp.com/attachments/951349384627499048/1100641771517661256/Screenshot_2023-04-25_at_11.37.23_PM.png)
+
 Our model achieved an accuracy of 98.37\% with a precision and recall metric of 98.51\% and 98.22\% respectively. Our F1 score is 98.37\%. Furthermore, we had an AOC-ROC score of 99.63\%. The high ROC-AUC score indicates that the model is able to distinguish between the two classes very well. 
 
 # Environmental Impact
