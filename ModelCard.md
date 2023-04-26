@@ -60,9 +60,9 @@ The goal of this model is to classify emails as either legitimate (ham) or phish
 - **Developed by: Grant Martin and Misbah Imtiaz
 - **Model type:** Language model
 - **Language(s) (NLP):** english
-- **License:** unknown
-- **Parent Model: unknown
-- **Resources for more information:** More information needed
+- **License:** N/A
+- **Parent Model: N/A
+- **Resources for more information:** 
     - [GitHub Repo](https://github.com/Grantmartin2002/GoPhish)
 
 
