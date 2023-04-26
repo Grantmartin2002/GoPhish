@@ -1,9 +1,9 @@
 # Data Sheet for Go Phish
 ## Data Source: 
-Enron Data Set ( https://www2.aueb.gr/users/ion/data/enron-spam/)
+Preprocessed Enron Data Set from ( https://www2.aueb.gr/users/ion/data/enron-spam/)
 
 ## Data Format: 
-series of files and folders of text files labeled with spam and ham. 
+Series of files and folders of text files labeled with spam and ham. 
 
 ## Data Size: 
 16545 ham and 17171 spam preprocessed emails

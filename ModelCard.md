@@ -3,10 +3,6 @@
 ---
 
 
-
-
-
-
 # Model Card for Go Phish
 
 <!-- Provide a quick summary of what the model is/does. [Optional] -->
@@ -72,12 +68,9 @@ The goal of this model is to classify emails as either legitimate (ham) or phish
 
 # Uses
 
-<!-- Address questions around how the model is intended to be used, including the foreseeable users of the model and those affected by the model. -->
-
 ## Direct Use
 
 The model is intended to be used only on the Enron data set for now to illustrate a proof of concept. For future use, we hope to train the model of more data sets of spam and ham emails to that the model can be used on modern day emails. 
-
 
 
 # Bias, Risks, and Limitations
@@ -88,8 +81,6 @@ This model is only trained on emails found in the Enron data set. This introduce
 ## Recommendations
 
 For future use, we should look to find new data set to train the model on to reduce the bias and inrease accuracy with modern emails. 
-
-
 
 
 
@@ -126,24 +117,20 @@ Use a NVIDIA GPU with cuda tool kit otherwise running a single epoch will take h
  
 # Evaluation
 
-Used a binary cross entropy loss function. 
+ We evaluated the model using Accuracy, Precion, Recall, F1 score, and ROC-AUC score. 
 
 ## Testing Data, Factors & Metrics
 
 ### Testing Data
-Testing data using a 60, 20, 20 split between training, testing and validating respectively from the Enron Dataset. 
+we used 20% of the Enron dataset for testing.  
 
 
-### Factors
-Unknown
-
-More information needed
-
-### Metrics
 
 ## Results 
 
-Our model achieved an accuracy of 98.37\% with a precision and recall metric of 98.51\% and 98.22\% respectively. Our F1 score is 98.37\%. Furthermore, we had an AOC-ROC score of 99.63\%. The high ROC-AUC score indicates that the model is able to make very accurate predictions and is performing very well overall.
+### Metrics
+
+Our model achieved an accuracy of 98.37\% with a precision and recall metric of 98.51\% and 98.22\% respectively. Our F1 score is 98.37\%. Furthermore, we had an AOC-ROC score of 99.63\%. The high ROC-AUC score indicates that the model is able to distinguish between the two classes very well. 
 
 # Environmental Impact
 
@@ -151,12 +138,11 @@ Our model achieved an accuracy of 98.37\% with a precision and recall metric of 
 
 Carbon emissions can be estimated using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al. (2019)](https://arxiv.org/abs/1910.09700).
 
-- **Hardware Type:** NVIDIA GPU
-The rest are not applicable since we didnt host the model anywhere to get inputs. 
-- **Hours used:** More information needed
-- **Cloud Provider:** More information needed
-- **Compute Region:** More information needed
-- **Carbon Emitted:** More information needed
+- **Hardware Type:** NVIDIA GTX 1080TI
+- **Hours used:** N/A
+- **Cloud Provider:** N/A
+- **Compute Region:** N/A
+- **Carbon Emitted:** N/A
 
 # Citation
 
